@@ -16,9 +16,14 @@ public class Triangle {
 
         if (choice == 1) {
 
-        } else if (choice == 2) {
 
-        } else if (choice == 3) {
+        }
+
+        else if (choice == 2) {
+
+        }
+
+        else if (choice == 3) {
 
         }
     }
@@ -77,10 +82,9 @@ public class Triangle {
             System.out.print("The perimeter of the triangle is " + perimeter);
         }
         else if(choice.equalsIgnoreCase("C"){
-            {
            perimeter = side1 + side2 + C;
            System.out.print("The perimeter of the triangle is " + perimeter);
-            }
+
 
         }
     }
