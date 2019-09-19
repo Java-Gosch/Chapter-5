@@ -40,7 +40,7 @@ public class CondoSales {
         Scanner input = new Scanner(System.in);
         int choice;
         int totalprice;
-        String garageChoice;
+        String garageChoice = null;
 
 
 
