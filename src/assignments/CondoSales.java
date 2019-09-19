@@ -3,7 +3,7 @@ package assignments;
 import java.util.Scanner;
 
 public class CondoSales {
-    public static void main{
+    public static void main(String[] args){
         int choice;
         int price = 0;
         String view = null;
@@ -58,6 +58,9 @@ public class CondoSales {
         else if (choice == 3){
             garageChoice = "No Garage";
             totalprice = price;
+        }
+        else{
+            System.out.print("Invalid, try again loser");
         }
 
     }
