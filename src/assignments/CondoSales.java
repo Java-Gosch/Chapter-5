@@ -32,14 +32,12 @@ public class CondoSales {
             view = "You've selected an invalid view ";
             System.out.println("Try that again, except read it moron");
         }
-        System.out.println("You've selected " + view + " that brings your price to $" + price);
-
 
     }
     public static void garageSelection(int price, String view) {
         Scanner input = new Scanner(System.in);
         int choice;
-        int totalprice;
+        int totalprice = 0;
         String garageChoice = null;
 
 
@@ -62,6 +60,7 @@ public class CondoSales {
         else{
             System.out.print("Invalid, try again loser");
         }
+        System.out.println("You've selected " + view + "  and " + garageChoice + " that brings your price to $" + totalprice);
 
     }
 }
