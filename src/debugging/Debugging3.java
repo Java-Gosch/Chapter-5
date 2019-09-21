@@ -7,9 +7,6 @@ public class Debugging3 {
     {
         int item;
         String output = null;
-        final int LOW = 111;
-        final int HIGH = 9;
-        final int CUTOFF = 500;
 
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter item number");
@@ -17,8 +14,11 @@ public class Debugging3 {
 
         calculateOutPut(item, output);
     }
-    public static void calculateOutPut(int item, final int LOW, final int HIGH, final int CUTOFF, String output)
+    public static void calculateOutPut(int item, String output)
     {
+        final int LOW = 111;
+        final int HIGH = 999;
+        final int CUTOFF = 500;
         Scanner input = new Scanner(System.in);
 
         if(item < LOW)
