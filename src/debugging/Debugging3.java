@@ -15,7 +15,7 @@ public class Debugging3 {
         System.out.println("Please enter item number");
         item = input.nextInt();
 
-//        calculateOutPut(item, output);
+        calculateOutPut(item, output);
     }
     public static void calculateOutPut(int item, final int LOW, final int HIGH, final int CUTOFF, String output)
     {
