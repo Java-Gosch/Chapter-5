@@ -17,7 +17,7 @@ public class RockPaperScissors {
         choice = input.nextInt();
 
         if(choice == 1){
-            if(enemyGuess == 1)
+            if(enemyGuess == 1){
 
         }
         else if(choice == 2){
@@ -27,4 +27,5 @@ public class RockPaperScissors {
 
         }
     }
+}
 }
